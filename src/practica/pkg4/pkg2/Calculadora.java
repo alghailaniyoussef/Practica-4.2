@@ -10,7 +10,11 @@ package practica.pkg4.pkg2;
  */
 public class Calculadora {
 
-    public  double suma(double a, double b) {
+    public double suma(double a, double b) {
         return a + b;
+    }
+
+    public double dividir(double a, double b) {
+        return a / b;
     }
 }
