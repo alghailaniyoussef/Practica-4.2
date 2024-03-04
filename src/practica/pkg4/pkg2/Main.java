@@ -20,7 +20,6 @@ public class Main {
     public static void main(String[] args) {
         int opcion, num1, num2;
         Calculadora CAL = new Calculadora();
-
         do {
             System.out.println("Por favor entre primer numero:");
             num1 = scanner.nextInt();
@@ -49,10 +48,7 @@ public class Main {
                     break;
                 case 5:
                     CAL.suma(num1, num2);
-                    break;
-            
-
-            }
+                    break; }
         } while (opcion != 6);
     }
 
