@@ -13,4 +13,8 @@ public class Calculadora {
     public  double suma(double a, double b) {
         return a + b;
     }
+    
+        public  double potencia(double a, double b) {
+        return Math.pow(a, b);
+    }
 }
