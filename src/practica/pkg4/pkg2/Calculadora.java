@@ -17,4 +17,8 @@ public class Calculadora {
     public double dividir(double a, double b) {
         return a / b;
     }
+    // Función de multiplicar. (Borja)
+    public double multiplicar(double a, double b){
+        return a * b;
+    }
 }
