@@ -35,19 +35,19 @@ public class Main {
             opcion = scanner.nextInt();
             switch (opcion) {
                 case 1:
-                    CAL.suma(num1, num2);
+                    System.out.println(CAL.suma(num1, num2));    
                     break;
                 case 2:
-                    CAL.suma(num1, num2);
+                    System.out.println(CAL.resta(num1, num2));    
                     break;
                 case 3:
-                    CAL.multiplicar(num1, num2);
+                    System.out.println(CAL.multiplicar(num1, num2));    
                     break;
                 case 4:
-                    CAL.dividir(num1, num2);
+                    System.out.println(CAL.dividir(num1, num2));    
                     break;
                 case 5:
-                    CAL.suma(num1, num2);
+                    System.out.println(CAL.potencia(num1, num2));    
                     break; }
         } while (opcion != 6);
     }
